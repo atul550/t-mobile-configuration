@@ -6,6 +6,8 @@
     "jsx": "preserve",
     "importHelpers": true,
     "moduleResolution": "node",
+    // added below property to support /ant-design-vue
+    "noImplicitAny": false,
     "experimentalDecorators": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
