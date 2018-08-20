@@ -5,9 +5,12 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import './registerServiceWorker'
+import Default from './layout/main.vue'
 
 Vue.config.productionTip = false
-Vue.use(Antd);
+Vue.use(Antd)
+
+Vue.component('main-layout', Default)
 
 new Vue({
   router,
