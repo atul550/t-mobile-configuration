@@ -1,0 +1,26 @@
+[{
+    "name": "Contacts",
+    "contextMenu": [
+
+    ],
+    "endPoints": [{
+            "name": "/contacts",
+            "operations": [{
+                "name": "Create Contact",
+                "method": "Post"
+            }]
+        },
+        {
+            "name": "/contacts/{contactid}",
+            "operations": [{
+                    "name": "Update Contact",
+                    "method": "Put"
+                },
+                {
+                    "name": "Delete Contact",
+                    "method": "Delete"
+                }
+            ]
+        }
+    ]
+}]
